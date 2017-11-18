@@ -1,0 +1,97 @@
+.yu-con , .yu-conn {
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	margin-top: 10px;
+}
+
+.yu-con .yu-con-one {
+	width: 25%;
+	float: left;
+	overflow: hidden;
+	box-sizing: border-box;
+	border: 1px solid #CCCCCC;
+	text-align: center;
+}
+.yu-conn .yu-conn-ones {
+	width: 50%;
+	float: left;
+	overflow: hidden;
+	box-sizing: border-box;
+	border: 1px solid #CCCCCC;
+	text-align: center;
+}
+
+.yu-con .yu-con-one img ,.yu-con1 .yu-con1-one img,.yu-conn .yu-conn-ones img {
+	width: 100%;
+	height: auto;
+	margin: 0 auto;
+}
+
+.yu-con .yu-con-one p ,.yu-con1 .yu-con1-one p ,.yu-conn .yu-conn-ones p{
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+}
+
+.yu-con1 {
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+}
+
+.yu-con1 .yu-con1-one {
+	width: 33.3%;
+	float: left;
+	overflow: hidden;
+	box-sizing: border-box;
+	border: 1px solid #CCCCCC;
+}
+
+.yu-pu{
+	width: 100%;height: auto;overflow: hidden;
+}
+.yu-pu-one,.yu-pu-second,.yu-pu-one-img{
+	width: 50%;
+	height: auto;
+	overflow: hidden;
+	float:left;
+	box-sizing: border-box;
+}
+.yu-pu-one-img{
+	border:1px solid #CCCCCC;
+}
+.yu-pu-one-img img{
+	width: 100%;
+	height: auto;
+}
+.yu-pu-one-img p{
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+}
+.yu-pu-second{
+	padding:0 10px;
+	font-family: sans-serif;
+}
+.yu-pu-second p{
+	text-indent: 2em;
+	font-family:'Microsoft YaHei';font-size:14px;"
+}
+.yu-pu-s{margin-top: 15px;}
+@media only screen and (max-width:768px) {
+	.yu-pu-one,.yu-pu-second{
+		width: 100%;
+		height: auto;
+	}
+}
+@media only screen and (max-width:768px) {
+	.yu-con .yu-con-one {
+	width:50%;
+	float: left;
+	overflow: hidden;
+	box-sizing: border-box;
+	border: 1px solid #CCCCCC;
+	text-align: center;
+}
+}

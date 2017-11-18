@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+
+		<meta content="yes" name="apple-mobile-web-app-capable">
+
+		<meta content="black" name="apple-mobile-web-app-status-bar-style">
+
+		<meta content="telephone=no" name="format-detection">
+		<title>首页</title>
+		<link rel="stylesheet" href="css/bootstrap.min.css" />
+		<link rel="stylesheet" href="css/style.css" />
+		<link rel="stylesheet" href="css/style1.css" />
+		<link href="assets/css/style.css" rel="stylesheet" id="colors">
+	</head>
+
+	<body>
+		<nav class="nav navbar-inverse navbar-fixed-top" role="navgation">
+			<div class="container-fluid">
+				<div class="navbar-header">
+					<a href="#" class="navbar-brand">
+						<img src="img/logo.png" class="navbar-brand-img">
+					</a>
+
+					<button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+				</div>
+
+				<div class="collapse navbar-collapse">
+					<ul class="navbar-nav nav navbar-right">
+						<li class="active">
+							<a href="index.html">首页</a>
+						</li>
+						<li>
+							<a href="news.html">新闻</a>
+						</li>
+						<li>
+							<a href="serve.html">产品与服务</a>
+						</li>
+						<li>
+							<a href="solve.html">解决方案</a>
+						</li>
+						<li>
+							<a href="success.html">成功案例</a>
+						</li>
+						<li>
+							<a href="agent.html">渠道代理</a>
+						</li>
+						<li>
+							<a href="about.html">关于我们</a>
+						</li>
+						<li>
+							<div class="yu-ying">
+								<a href="#">中</a>&nbsp;|&nbsp;
+								<a href="#" data-toggle="modal" data-target=".bs-example-modal-sm">EN</a>
+							</div>
+							<div class="modal fade bs-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+								<div class="modal-dialog modal-sm" role="document">
+									<div class="modal-content">
+
+										<div class="modal-header">
+											<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+											<h4 class="modal-title">温馨提示</h4>
+										</div>
+										<div class="modal-body">
+											<p>现在还没有推出英文版的网站，我们会尽快推出以方便大家的查阅。</p>
+										</div>
+										<div class="modal-footer">
+											<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+											<button type="button" class="btn btn-primary">Save changes</button>
+										</div>
+									</div>
+								</div>
+							</div>
+						</li>
+						<li>
+							&nbsp;&nbsp;
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+
+		<!--轮播-->
+		<div id="myCarousel" class="carousel slide">
+			<ol class="carousel-indicators">
+				<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+				<li data-target="#myCarousel" data-slide-to="1"></li>
+				<li data-target="#myCarousel" data-slide-to="2"></li>
+			</ol>
+			<div class="carousel-inner">
+				<div class="item active" style="background:#223240;">
+					<a href="serve.html"><img src="img/banner.png" alt="第一张" /></a>
+				</div>
+				<div class="item" style="background: #fse4dc;">
+					<a href="success.html"><img src="img/banner12.png" alt="第二张" /></a>
+				</div>
+				<div class="item" style="background: #de2a2d;">
+					<a href="agent.html"><img src="img/banner13.png" alt="第三张" /></a>
+				</div>
+			</div>
+			<a href="#myCarousel" data-slide="prev" class="carousel-control left">
+				<span class="glyphicon glyphicon-chevron-left"></span>
+			</a>
+			<a href="#myCarousel" data-slide="next" class="carousel-control right">
+				<span class="glyphicon glyphicon-chevron-right"></span>
+			</a>
+		</div>
+
+		<!--图片滑动-->
+		<div class="yu-middel">
+			<div class="col-md-4" class="yu-middel-title" style="padding-left: 0px;padding-right: 0px;">
+				<img src="img/title2.png" class="yu-middel-img" />
+				<div class="yu-middel-hidden">
+					<p>华沐简介</p>
+					<a href="about.html">详情&nbsp;<span>></span></a>
+				</div>
+			</div>
+
+			<div class="col-md-4" class="yu-middel-title" style="padding-left: 0px;padding-right: 0px;">
+				<img src="img/title3.png" class="yu-middel-img" />
+				<div class="yu-middel-hidden">
+					<p>成功案例</p>
+					<a href="success.html">详情&nbsp;<span>></span></a>
+				</div>
+			</div>
+			<div class="col-md-4" class="yu-middel-title" style="padding-left: 0px;padding-right: 0px;">
+				<img src="img/title.png" class="yu-middel-img" />
+				<div class="yu-middel-hidden">
+					<p>产品与服务</p>
+					<a href="serve.html">详情&nbsp;<span>></span></a>
+				</div>
+			</div>
+		</div>
+		<div class="tab1">
+			<div class="container">
+				<div class="col-md-12" style="text-align: center;margin-top:10px;color: #eb3d00;">
+					<h3><b>华沐主营业务</b></h3>
+				</div>
+			</div>
+		</div>
+
+		<!--内容-->
+		<div class="tab1">
+			<div class="container" style="margin: 0 auto;padding-top: 15px;">
+				<div class="col-md-12">
+					<div class="col-md-3" onclick="window.location='produce/mainBusiness.html'">
+						<img src="images/f4.png" class="yu-zheimg" style="border-radius: 50%;" />
+						<div class="yu-zhe">
+							<p>分布式光伏</p>
+						</div>
+					</div>
+					<div class="col-md-3" onclick="window.location='produce/mainBusiness.html'">
+						<img src="images/f3.png" class="yu-zheimg" style="border-radius: 50%;" />
+						<div class="yu-zhe">
+							<p>户用光伏</p>
+						</div>
+					</div>
+					<div class="col-md-3" onclick="window.location='produce/mainBusiness.html'">
+						<img src="images/f6.png" class="yu-zheimg" style="border-radius: 50%;" />
+						<div class="yu-zhe">
+							<p>电站设计</p>
+						</div>
+					</div>
+					<div class="col-md-3" onclick="window.location='produce/mainBusiness.html'">
+						<img src="images/f5.png" class="yu-zheimg" style="border-radius: 50%;" />
+						<div class="yu-zhe">
+							<p>电站运维</p>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="tab1">
+				<div class="container" style="margin: 0 auto;padding-top: 15px;">
+					<div class="col-md-12" style="text-align: center;padding: 10px 0;color: #eb3d00;">
+						<h3><b>华沐产品</b></h3>
+					</div>
+					<div class="col-md-12" style="padding: 10px 0;">
+						<p>
+							华沐通途是以用户需求为向导，打造“B2C”的商业模式，做好以硅料铸锭、硅锭切割、硅片生产、组件定制生产到光伏电站建设和运营的每一个环节。华沐通途的主要产品介绍主要有分布式光伏电站，华沐组件，用户电站和电池片等。
+						</p>
+					</div>
+					<ul class="thumbnails slides">
+						<li class="col-md-3 slide" onclick="window.location='serve.html'">
+							<div class="project-item">
+								<div class="thumbnail">
+									<div class="sample project-item-image-container">
+										<div class="project-item-overlay">
+											<div class="inner">
+												<ul>
+													<li>
+														<a class="proj-btn" href="serve.html"><i class="fa-icon-link fa-icon-large"></i></a>
+													</li>
+												</ul>
+											</div>
+										</div>
+										<img src="images/s11.png" alt="" />
+									</div>
+									<div class="caption">
+										<div class="transit-to-top">
+											<h4 class="p-title">分布式光伏电站</h4>
+											<p class="caption-descr">华沐通途新能源科技有限公司主要产品之一分布式光伏电站</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</li>
+						<li class="col-md-3 slide" onclick="window.location='serve.html'">
+							<div class="project-item">
+								<div class="thumbnail">
+									<div class="sample project-item-image-container">
+										<div class="project-item-overlay">
+											<div class="inner">
+												<ul>
+													<li>
+														<a class="proj-btn" href="serve.html"><i class="fa-icon-link fa-icon-large"></i></a>
+													</li>
+												</ul>
+											</div>
+										</div>
+										<img src="images/s3.png" alt="" />
+									</div>
+									<div class="caption">
+										<div class="transit-to-top">
+											<h4 class="p-title">户用光伏电站</h4>
+											<p class="caption-descr">华沐通途新能源科技有限公司主要产品之一户用光伏电站</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</li>
+						<li class="col-md-3 slide" onclick="window.location='serve.html'">
+							<div class="project-item">
+								<div class="thumbnail">
+									<div class="sample project-item-image-container">
+										<div class="project-item-overlay">
+											<div class="inner">
+												<ul>
+													<li>
+														<a class="proj-btn" href="serve.html"><i class="fa-icon-link fa-icon-large"></i></a>
+													</li>
+												</ul>
+											</div>
+										</div>
+										<img src="images/s4.png" alt="" />
+									</div>
+									<div class="caption">
+										<div class="transit-to-top">
+											<h4 class="p-title">华沐组件</h4>
+											<p class="caption-descr">华沐通途新能源科技有限公司主要产品之一组件，电站建设的必需品</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</li>
+						<li class="col-md-3 slide" onclick="window.location='serve.html'">
+							<div class="project-item">
+								<div class="thumbnail">
+									<div class="sample project-item-image-container">
+										<div class="project-item-overlay">
+											<div class="inner">
+												<ul>
+													<li>
+														<a class="proj-btn" href="serve.html"><i class="fa-icon-link fa-icon-large"></i></a>
+													</li>
+												</ul>
+											</div>
+										</div>
+										<img src="images/s77.png" alt="" />
+									</div>
+									<div class="caption">
+										<div class="transit-to-top">
+											<h4 class="p-title">电池片</h4>
+											<p class="caption-descr">华沐通途新能源科技有限公司主要产品之一电池片，用于电站建设的发电</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="tab1">
+				<div class="container">
+
+					<div class="col-md-9" style="margin-top: 10px;margin-bottom: 10px;">
+						<div class="col-md-12" style="text-align: center;color: #eb3d00;padding-bottom:30px;">
+							<h3><b>华沐光伏服务</b></h3>
+						</div>
+						<ul class="thumbnails slides">
+							<li class="col-md-4 slide" onclick="window.location='serve.html'">
+								<div class="project-item">
+									<div class="thumbnail">
+										<div class="sample project-item-image-container">
+											<div class="project-item-overlay">
+												<div class="inner">
+													<ul>
+														<li>
+															<a class="proj-btn" href="serve.html"><i class="fa-icon-link fa-icon-large"></i></a>
+														</li>
+													</ul>
+												</div>
+											</div>
+											<img src="images/pp3.png" alt="" />
+										</div>
+										<div class="caption">
+											<div class="transit-to-top">
+												<h4 class="p-title">光伏电站设计服务</h4>
+												<p class="caption-descr">华沐通途新能源科技有限公司致力于光电服务之光伏电站的设计</p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</li>
+							<li class="col-md-4 slide" onclick="window.location='serve.html'">
+								<div class="project-item">
+									<div class="thumbnail">
+										<div class="sample project-item-image-container">
+											<div class="project-item-overlay">
+												<div class="inner">
+													<ul>
+														<li>
+															<a class="proj-btn" href="serve.html"><i class="fa-icon-link fa-icon-large"></i></a>
+														</li>
+													</ul>
+												</div>
+											</div>
+											<img src="images/pp5.png" alt="" />
+										</div>
+										<div class="caption">
+											<div class="transit-to-top">
+												<h4 class="p-title">光伏电站质量检测服务</h4>
+												<p class="caption-descr">华沐通途新能源科技有限公司致力于光电服务之电站质量检测服务</p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</li>
+							<li class="col-md-4 slide" onclick="window.location='serve.html'">
+								<div class="project-item">
+									<div class="thumbnail">
+										<div class="sample project-item-image-container">
+											<div class="project-item-overlay">
+												<div class="inner">
+													<ul>
+														<li>
+															<a class="proj-btn" href="serve.html"><i class="fa-icon-link fa-icon-large"></i></a>
+														</li>
+													</ul>
+												</div>
+											</div>
+											<img src="images/pp6.png" alt="" />
+										</div>
+										<div class="caption">
+											<div class="transit-to-top">
+												<h4 class="p-title">光伏电站运维服务</h4>
+												<p class="caption-descr">华沐通途新能源科技有限公司致力于光电服务之电站后期运维服务</p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</li>
+						</ul>
+					</div>
+					<div class="col-md-3" style="margin-top: 10px;margin-bottom: 10px;">
+						<h3 style="text-align: center;color: #eb3d00;padding-bottom:30px;"><b>华沐新闻</b></h3>
+						<div class="panel panel-danger">
+							<div class="panel-heading">新闻
+								<a href="news.html"><span class="more">更多</span></a>
+							</div>
+							<div class="panel-body" style="padding:5px 0;">
+								<div class="col-md-12" id="scrollDiv" style="height:160px;line-height:25px;min-height:25px;overflow: hidden;">
+									<ul id="box1_c_ul">
+										<li>
+											<a href="news.html" target='_blank'>河南省百余贫困户家装分布式光伏电站并网</a>
+										</li>
+										<li>
+											<a href="news.html" target='_blank'>习近平来到国家电投太阳能电力有限公司西宁分公司</a>
+										</li>
+										<li>
+											<a href="news.html" target='_blank'>公司派遣人员在中国英利长达半年的工作考察。</a>
+										</li>
+										<li>
+											<a href="news.html" target='_blank'>商丘市民权县第一户农户并网成功开始发电</a>
+										</li>
+										<li>
+											<a href="news.html" target='_blank'>濮阳县举行华沐通途新能源科技“光伏扶贫电站”建设项目签约仪式</a>
+										</li>
+										<li>
+											<a href="news.html" target='_blank'>河南华沐通途新能源光伏电站及变电站工程施工单位资格入围招标公告 </a>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</div>
+
+			<div class="tab1">
+				<div class="container">
+
+					<div class="col-md-8" style="margin-top: 10px;margin-bottom: 10px;">
+						<div class="col-md-12" style="text-align: left;color: #eb3d00;padding-bottom:30px;">
+							<h3><b>成功案例</b></h3>
+						</div>
+						<div class="col-md-4" style="background: #FFFFFF;padding: 10px 10px;" onclick="window.location.href='success.html'">
+							<img src="images/c4.png" class="yu-hover" />
+							<p style="padding:5px 0;">青岛莱西北汽新能源项目</p>
+						</div>
+						<div class="col-md-4" style="background: #FFFFFF;padding: 10px 10px;" onclick="window.location.href='success.html'">
+							<img src="images/c52.png" class="yu-hover" />
+							<p style="padding:5px 0;">洛宁阿帕奇项目</p>
+						</div>
+						<div class="col-md-4" style="background: #FFFFFF;padding: 10px 10px;" onclick="window.location.href='success.html'">
+							<img src="images/c44.png" class="yu-hover" />
+							<p style="padding:5px 0;">郑州四方达项目</p>
+						</div>
+					</div>
+					<div class="col-md-4" style="margin-top: 10px;margin-bottom: 10px;">
+						<div class="col-md-12" style="text-align: left;color: #eb3d00;padding-bottom:30px;">
+							<h3><b>华沐合作伙伴</b></h3>
+						</div>
+						<div class="col-md-12" style="margin-bottom: 10px;">
+							<div class="col-md-6">
+								<img src="img/14.png" style="width: 100%;height: auto;" />
+							</div>
+							<div class="col-md-6">
+								<img src="img/12.png" style="width: 100%;height: auto;" />
+							</div>
+						</div>
+						<div class="col-md-12" style="margin-top: 10px;margin-bottom: 10px;">
+							<div class="col-md-6">
+								<img src="img/1.png" style="width: 100%;height: auto;" />
+							</div>
+							<div class="col-md-6">
+								<img src="img/9.png" style="width: 100%;height: auto;" />
+							</div>
+						</div>
+						<div class="col-md-12" style="margin-top: 10px;margin-bottom: 10px;">
+							<div class="col-md-6">
+								<img src="img/4.png" style="width: 100%;height: auto;" />
+							</div>
+							<div class="col-md-6">
+								<img src="img/6.png" style="width: 100%;height: auto;" />
+							</div>
+						</div>
+						<div class="col-md-12" style="margin-top: 10px;margin-bottom: 10px;">
+							<div class="col-md-6">
+								<img src="img/7.png" style="width: 100%;height: auto;" />
+							</div>
+							<div class="col-md-6">
+								<img src="img/13.png" style="width: 100%;height: auto;" />
+							</div>
+						</div>
+						<div class="col-md-12" style="margin-top: 10px;margin-bottom: 10px;">
+							<div class="col-md-6">
+								<img src="img/2.png" style="width: 100%;height: auto;" />
+							</div>
+							<div class="col-md-6">
+								<img src="img/3.png" style="width: 100%;height: auto;" />
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<footer id="footer">
+				<div class="container">
+					<div class="col-md-6">
+						<div class="col-md-12">
+							<p class="yu-footer">华沐通途</p>
+							<p>河南华沐通途新能源科技有限公司是一家专门从事新能源技术开发、光伏工程安装、太阳能光热综合利用的设计和工程施工的专业化能源公司。 注册资本12500万元，旗下拥有专业的项目开发、设计和工程技术公司，博士、硕士以上高级人才29人，各类专业技术人才近百人。
+							</p>
+						</div>
+						<div class="col-md-12" class="yu-footer-font">
+							<span onclick="window.location='news.html'">新闻</span>&nbsp;|&nbsp;
+							<span onclick="window.location='success.html'">成功案例</span>&nbsp;|&nbsp;
+							<span onclick="window.location='serve.html'">产品与服务</span>&nbsp;|&nbsp;
+							<span onclick="window.location='solve.html'">解决方案</span>&nbsp;|&nbsp;
+							<span onclick="window.location='agent.html'">渠道代理</span>&nbsp;|&nbsp;
+							<span onclick="window.location='about.html'">关于我们</span>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<p>河南华沐通途新能源科技有限公司</p>
+						<p>地址：郑州市郑东新区众旺路19号楼B栋11层</p>
+						<p>电话：0371-86060888</p>
+						<div class="input-group col-md-12">
+							<div class="input-group search-input-group">
+								<input type="hidden" name="scope" value="1">
+								<input name="key" autocomplete="off" type="text" class="form-control" placeholder="请输入关键字">
+								<span class="input-group-addon">
+                            <button type="submit">
+                               <span class="glyphicon glyphicon-search"></span>
+								</button>
+								</span>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-2">
+						<img src="img/huamu.png" style="width:100%;height: auto;" />
+						<p style="margin: 10px 0;font-size: 16px;text-align: center;">扫一扫</p>
+					</div>
+				</div>
+			</footer>
+			<div id="to_top"><span>top</span></div>
+	</body>
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/top.js"></script>
+	<!--百度分享-->
+	<script type="text/javascript" id="bdshare_js" data="type=slide&img=6&pos=right&uid=6478904"></script>
+	<script type="text/javascript" id="bdshell_js"></script>
+	<script type="text/javascript">
+		document.getElementById("bdshell_js").src = "http://bdimg.share.baidu.com/static/js/shell_v2.js?cdnversion=" + Math.ceil(new Date() / 3600000);
+	</script>
+	<script type="text/javascript">
+		//滚动插件
+		(function($) {
+			$.fn.extend({
+				Scroll: function(opt, callback) {
+					//参数初始化
+					if(!opt) var opt = {};
+					var _this = this.eq(0).find("ul:first");
+					var lineH = _this.find("li:first").height(), //获取行高
+						line = opt.line ? parseInt(opt.line, 10) : parseInt(this.height() / lineH, 10), //每次滚动的行数，默认为一屏，即父容器高度
+						speed = opt.speed ? parseInt(opt.speed, 10) : 500, //卷动速度，数值越大，速度越慢（毫秒）
+						timer = opt.timer ? parseInt(opt.timer, 10) : 3000; //滚动的时间间隔（毫秒）
+					if(line == 0) line = 1;
+					var upHeight = 0 - line * lineH;
+					//滚动函数
+					scrollUp = function() {
+							_this.animate({
+								marginTop: upHeight
+							}, speed, function() {
+								for(i = 1; i <= line; i++) {
+									_this.find("li:first").appendTo(_this);
+								}
+								_this.css({
+									marginTop: 0
+								});
+							});
+						}
+						//鼠标事件绑定
+					_this.hover(function() {
+						clearInterval(timerID);
+					}, function() {
+						timerID = setInterval("scrollUp()", timer);
+					}).mouseout();
+				}
+			})
+		})(jQuery);
+		$(document).ready(function() {
+			$("#scrollDiv").Scroll({
+				line: 1,
+				speed: 500,
+				timer: 1000
+			}); //可修改line值，speed值，timer值
+		});
+	</script>
+
+</html>
